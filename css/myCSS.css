@@ -1,0 +1,10 @@
+table, th, td {
+    border: 1px solid #fcec9c;
+    border-collapse: collapse;
+    color: white;
+}
+
+img {
+	width  : 100%;
+    height : auto;
+}

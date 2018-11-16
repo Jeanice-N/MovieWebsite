@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<nguyejea>
+	<title>Jeanice's Assignment 2</title>
+	
+	<student program = "Software Development and Network Engineering">
+		<studentNumber>995427060</studentNumber>
+		<studentName>Jeanice Nguyen</studentName>
+	</student>
+	
+
+	<movie image = "images/moana.jpg">
+		<movieName>Moana</movieName>
+		<plot>In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches an impetuous Chieftain's daughter's island, she answers the Ocean's call to seek out the Demigod to set things right.</plot>
+		<cast>
+			<actor name = "Auli'i Cravalho">
+				<role>Moana</role>
+			</actor>
+			<actor name = "Dwayne Johnson">
+				<role>Maui</role>
+			</actor>
+			<actor name = "Rachel House">
+				<role>Gramma Tala</role>
+			</actor>
+		</cast>
+		<reviews>
+			<review>"The narrative is a fairly predictable hero's journey -- Maui even calls her "The Chosen One" -- but the movie is refreshing for its lack of a love interest; instead Moana learns how to chart her own course." - Chicago Reader</review>
+			<review>"An absolute delight, a lush, exuberant quest fable full of big musical numbers and featuring perhaps the most stunning visuals of any Disney film to date." - The Atlantic</review>
+			<review>"The film achieves what the best Disney animated features do: a sense of place that is refined and specific." - NPR</review>
+		</reviews>
+	</movie>
+
+	<movie image = "images/zootopia.jpg">
+		<movieName>Zootopia</movieName>
+		<plot>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.</plot>
+		<cast>
+			<actor name = "Ginnifer Goodwin">
+				<role>Judy Hopps</role>
+			</actor>
+			<actor name = "Jason Bateman">
+				<role>Nick Wilde</role>
+			</actor>
+			<actor name = "Idris Elba">
+				<role>Chief Bogo</role>
+			</actor>
+		</cast>
+		<reviews>
+			<review>"Zootopia excels on so many levels that it stands with the finest of the Disney classics." - New York Post</review>
+			<review>"There's a lot here for kids to like and nearly as much to keep parents from fidgeting." - ReelViews</review>
+			<review>"What saves this big-budget cartoon behemoth is its modest, old-fashioned storytelling." - New York Magazine</review>
+		</reviews>
+	</movie>
+
+	<movie image = "images/findingdory.jpg">
+		<movieName>Finding Dory</movieName>
+		<plot>The friendly but forgetful blue tang fish, Dory, begins a search for her long-lost parents, and everyone learns a few things about the real meaning of family along the way.</plot>
+		<cast>
+			<actor name = "Ellen DeGeneres">
+				<role>Dory</role>
+			</actor>
+			<actor name = "Albert Brooks">
+				<role>Marlin</role>
+			</actor>
+			<actor name = "Ed O'Neill">
+				<role>Hank</role>
+			</actor>
+		</cast>
+		<reviews>
+			<review>"The film's number of memorable new characters are enough to mask its story problems." - SFist</review>
+			<review>"Finding Dory is, hands down, one of Pixar's best pieces of work to date and is nothing short of perfection." - Forbes</review>
+			<review>"While not as visually dazzling as its predecessor, the film is still colorful and immersive; the script, while predictable, puts an engaging spin on the issues of home and identity." - New Yorker</review>
+		</reviews>
+	</movie>
+
+</nguyejea>

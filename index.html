@@ -1,0 +1,241 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0">
+	<title></title>
+
+	<!--adding jquery mobile library-->
+	<link rel="stylesheet" href="theme/themes/nguyejea.min.css" />
+	<link rel="stylesheet" href="theme/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="theme/themes/nguyejea.css" />
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<!--adding javascript file-->
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   	<script src="js/myJS.js"></script>
+
+	<!--adding css file-->
+   	<link rel='stylesheet' href='css/myCSS.css'/>
+</head>
+
+
+<body>
+	<div data-role="page" data-theme="a" id="page1">
+		<div data-role="header" data-position="inline">
+			<h1 id="header"></h1>
+		</div> <!--end of header-->
+		
+		<div data-role="content" data-theme="a" class = "ui-content">
+			<h1>Movies:</h1>
+			<p id="movietitles"></p>
+			
+			<p><a href="theme/index.html" class="ui-link">Link to Theme Roller Customized theme</a></p>
+			
+		</div> <!--end of content-->
+
+		<div data-role="footer">
+    		<h1 id="footer"></h1>
+  		</div> <!--end of footer-->
+
+	</div> <!--end of page one-->
+
+	<div data-role="page" data-theme="a" id="page2">
+			<div data-role="header" data-position="inline">
+				<h1 id="header"></h1>
+				<div data-role="navbar">
+			      <ul>
+			        <li><a href="#page1">Home</a></li>
+			        <li><a href="#page3">Zootopia</a></li>
+			        <li><a href="#page4">Finding Dory</a></li>
+			      </ul>
+			    </div>
+			</div> <!--end of header-->
+			
+			<div data-role="content" data-theme="a">
+				
+				<h1 id="movie1"></h1>
+				<p id = "pic1"></p>
+				
+				<h2>Synopsis:</h2>
+					<p id = "movie1plot"></p>
+
+				<h2>Cast Members:</h2>	
+					<table style="width:100%">
+					  <tr>
+					    <th>Actor</th>
+					    <th>Role</th> 
+					  </tr>
+					  <tr>
+					    <td id = "mov1act1"></td>
+					    <td id = "mov1role1"></td>
+					  </tr>
+					  <tr>
+					    <td id = "mov1act2"></td>
+					    <td id = "mov1role2"></td>
+					  </tr>
+					  <tr>
+					    <td id = "mov1act3"></td>
+					    <td id = "mov1role3"></td>
+					  </tr>						  
+					</table>
+
+				<h2>Reviews:</h2>	
+					<p id = "movie1rev"></p>
+
+			    <div class="ui-grid-a">
+			      <div class="ui-block-a">
+			        <a href="http://www.imdb.com/title/tt3521164/" class="ui-btn ui-corner-all ui-shadow">IMDB</a><br>
+			        <span>Check out Moana's IMDB.</span>
+			      </div>
+
+			      <div class="ui-block-b">
+			        <a href="https://www.cineplex.com/" class="ui-btn ui-corner-all ui-shadow">Theatre</a><br>
+			        <span>See Moana in theatres.</span>
+			      </div>
+			    </div>
+				
+			</div> <!--end of content-->
+
+			<div data-role="footer">
+	    		<h1 id="footer"></h1>
+	  		</div> <!--end of content-->
+
+	</div> <!--end of page two-->
+
+	<div data-role="page" data-theme="a" id="page3">
+			<div data-role="header" data-position="inline">
+				<h1 id="header"></h1>
+				<div data-role="navbar">
+			      <ul>
+			        <li><a href="#page1">Home</a></li>
+			        <li><a href="#page2">Moana</a></li>
+			        <li><a href="#page4">Finding Dory</a></li>
+			      </ul>
+			    </div>
+			</div> <!--end of header-->
+			
+			<div data-role="content" data-theme="a">
+				
+				<h1 id="movie2"></h1>
+				<p id = "pic2"></p>
+				
+				<h2>Synopsis:</h2>
+					<p id = "movie2plot"></p>
+
+				<h2>Cast Members:</h2>	
+					<p id = "movie2cast">
+						<table style="width:100%">
+						  <tr>
+						    <th>Actor</th>
+						    <th>Role</th> 
+						  </tr>
+						  <tr>
+						    <td id = "mov2act4"></td>
+						    <td id = "mov2role4"></td>
+						  </tr>
+						  <tr>
+						    <td id = "mov2act5"></td>
+						    <td id = "mov2role5"></td>
+						  </tr>
+						  <tr>
+						    <td id = "mov2act6"></td>
+						    <td id = "mov2role6"></td>
+						  </tr>						  
+						</table>
+					</p>
+
+				<h2>Reviews:</h2>	
+					<p id = "movie2rev"></p>
+
+			    <div class="ui-grid-a">
+			      <div class="ui-block-a">
+			        <a href="http://www.imdb.com/title/tt2948356/" class="ui-btn ui-corner-all ui-shadow">IMDB</a><br>
+			        <span>Check out Zootopia's IMDB.</span>
+			      </div>
+
+			      <div class="ui-block-b">
+			        <a href="https://www.cineplex.com/" class="ui-btn ui-corner-all ui-shadow">Theatre</a><br>
+			        <span>See Zootopia in theatres.</span>
+			      </div>
+			    </div>
+				
+			</div> <!--end of content-->
+
+			<div data-role="footer">
+	    		<h1 id="footer"></h1>
+	  		</div> <!--end of content-->
+
+	</div> <!--end of page three-->
+
+	<div data-role="page" data-theme="a" id="page4">
+			<div data-role="header" data-position="inline">
+				<h1 id="header"></h1>
+				<div data-role="navbar">
+			      <ul>
+			        <li><a href="#page1">Home</a></li>
+			        <li><a href="#page2">Moana</a></li>
+			        <li><a href="#page3">Zootopia</a></li>
+			      </ul>
+			    </div>
+			</div> <!--end of header-->
+			
+			<div data-role="content" data-theme="a">
+				
+				<h1 id="movie3"></h1>
+				<p id = "pic3"></p>
+				
+				<h2>Synopsis:</h2>
+					<p id = "movie3plot"></p>
+
+				<h2>Cast Members:</h2>	
+					<p id = "movie3cast">
+						<table style="width:100%">
+						  <tr>
+						    <th>Actor</th>
+						    <th>Role</th> 
+						  </tr>
+						  <tr>
+						    <td id = "mov3act7"></td>
+						    <td id = "mov3role7"></td>
+						  </tr>
+						  <tr>
+						    <td id = "mov3act8"></td>
+						    <td id = "mov3role8"></td>
+						  </tr>
+						  <tr>
+						    <td id = "mov3act9"></td>
+						    <td id = "mov3role9"></td>
+						  </tr>						  
+						</table>
+					</p>
+
+				<h2>Reviews:</h2>	
+					<p id = "movie3rev"></p>
+
+			    <div class="ui-grid-a">
+			      <div class="ui-block-a">
+			        <a href="http://www.imdb.com/title/tt2277860/?ref_=tt_rec_tt" class="ui-btn ui-corner-all ui-shadow">IMDB</a><br>
+			        <span>Check out Finding Dory's IMDB.</span>
+			      </div>
+
+			      <div class="ui-block-b">
+			        <a href="https://www.cineplex.com/" class="ui-btn ui-corner-all ui-shadow">Theatre</a><br>
+			        <span>See Finding Dory in theatres.</span>
+			      </div>
+			    </div>
+				
+			</div> <!--end of content-->
+
+			<div data-role="footer">
+	    		<h1 id="footer"></h1>
+	  		</div> <!--end of content-->
+
+	</div> <!--end of page four-->
+
+
+</body>
+</html>
